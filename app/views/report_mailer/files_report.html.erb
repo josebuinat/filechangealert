@@ -1,0 +1,5 @@
+<h2> Files added from <%= @from %> to <%= @now %> </h2>
+<% @upload_actions.each do |action| %>
+  <p><strong> <%= action.file_name[0] %> </strong></p>
+  <p> <%= raw render(:template => "report_mailer/upload_action.json", :locals => { :file => action })  %> </p>
+<% end %>

@@ -1,0 +1,6 @@
+# directory path to wath
+directory_path: /Users/Sample/Documents/sampledir 
+sender_mail_username: 'sendersample@gmail.com'
+sender_mail_password: 'samplepassword'
+outgoing_mail: 'sample@outgoing.com'
+# CREDENTIALS YAML goes here
